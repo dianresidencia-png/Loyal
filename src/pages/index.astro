@@ -1,0 +1,37 @@
+---
+import Layout from "../Layouts/Layout.astro"
+import FeaturedSection from "../components/FeaturedSection.astro"
+import Hero from "../components/Hero.astro"
+import Como from "../components/Como.astro"
+import Sept2 from "../components/Step2.astro"
+import Sept3 from "../components/Step3.astro"
+import Footer from "../components/Footer.astro"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<!-- Include Google Fonts for better typography -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet">
+
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+
+	</head>
+	<body>
+		<Layout>
+			<Hero />
+			<FeaturedSection />
+			
+			<Como />
+			<Sept2 />
+			<Sept3 />
+
+			<Footer />
+		</Layout>
+	</body>
+</html>

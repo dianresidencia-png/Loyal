@@ -1,0 +1,18 @@
+---
+import "../styles/global.css"
+import Navbar from "../components/Navbar.astro";
+---
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mi Proyecto Astro</title>
+  </head>
+  <body>
+    <Navbar />
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
